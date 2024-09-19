@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: url(img/image.jpg) no-repeat center center/cover;
+}
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 80%;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 10% 2%;
+    border-radius: 5px;
+    background-color: #ffffffaa;
+}
+
+button {
+    
+    width: 100%;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: .4em;
+    cursor: pointer;
+
+}
+
+.answer {
+    display: none;
+    line-height: 1.3rem;
+    padding: 20px 10px;
+}
+
+.active {
+    display: block;
+}
+
